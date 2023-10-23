@@ -1,0 +1,112 @@
+@font-face {
+  font-family: qatar-medium;
+  src: url(fonts/Qatar2022-Medium.otf);
+}
+
+@font-face {
+  font-family: qatar-BOLD;
+  src: url(fonts/Qatar2022Arabic-Bold.ttf);
+}
+
+@font-face {
+  font-family: qatar-HEAVEY;
+  src: url(fonts/Qatar2022Arabic-Heavy.otf);
+}
+  
+  .modal {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: auto;
+    width: 100%;
+    height: 50%;
+    padding: 1.3rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 2;
+    top: 20%;
+    font-family: qatar-medium;
+    background-color: rgba(39, 14, 14, 0.955);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+  .modal::after , .modal::before {
+    box-sizing: border-box;
+  }
+  
+.buttontext {
+  display: flex;
+ 
+}
+  button {
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn {
+    background: rgba(0, 0, 0, 0.583);
+    color: #ddd;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.3);
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 13px;
+    
+   
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    color:wheat;
+    -webkit-transform: scale(3.5);
+    -ms-transform: scale(3.5);
+    transform: scale(1.3);
+    transition: 0.7s ease;
+  }
+  .btn h1 {
+    
+   
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .btn-open h1  {
+  
+    width: 100px;
+    bottom: 150px;
+    font-family: inherit;
+    font-size: 3rem;
+  
+  }
+  
+
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

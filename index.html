@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="overlay.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+
+</head>
+
+<body>
+  <section>
+    <div class="loading-screen">
+      <div class="loading-section">
+        <div class="title">FIFA WORLD CUP QATAR</div>
+        <div id="loader"></div>
+
+      </div>
+      <div class="loading-images-container">
+        <div class="loading-images">
+          <img src="bilder/Iniestawinner.jpg" alt="" /><img src="bilder/pele.jpg" alt="" /><img src="bilder/zidane.jpg"
+            alt="" /><img src="bilder/handofgod.jpg" /><img src="bilder/r9.jpg" alt="" /><img
+            src="bilder/Ronaldinhofreekick.jpg" alt="" /><img src="bilder/Iniestawinner.jpg" alt="" /><img
+            src="bilder/Iniestawinner.jpg" alt="" /><img src="bilder/Iniestawinner.jpg" alt="" /><img
+            src="bilder/Iniestawinner.jpg" /><img src="bilder/Iniestawinner.jpg" alt="" /><img
+            src="bilder/tshabalala.jpg" alt="" /><img src="bilder/Iniestawinner.jpg" /><img
+            src="bilder/Iniestawinner.jpg" alt="" /><img src="bilder/r9.jpg" alt="" /><img
+            src="bilder/Iniestawinner.jpg" alt="" /><img src="bilder/Iniestawinner.jpg" alt="" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="INTRO">
+  </section>
+  <div class="handofgod vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/handofgod.jpg">
+      <source src="mp4/Y2Mate.is - Maradona 'Hand of God' Goal 1986 World Cup--ccNkksrfls-360p-1658010249802.mp4"
+        type="video/mp4">
+      </source>
+    </video>
+  </div>
+  <div class="iniesta vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/Iniestawinner.jpg">
+      <source
+        src="mp4/Y2Mate.is - Andres Iniesta goal vs Netherlands ALL THE ANGLES 2010 FIFA World Cup-3pCPQDxZzfY-360p-1658037681334.mp4"
+        type="video/mp4">
+      </source>
+    </video></div>
+  <div class="r10 vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/Ronaldinhofreekick.jpg">
+      <source
+        src="mp4/Y2Mate.is - Ronaldinho free-kick vs England 2002 FIFA World Cup-R3zgW1mV-PQ-360p-1658037671332.mp4"
+        type="video/mp4">
+      </source>
+    </video></div>
+  <div class="zidane vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/zidane.jpg">
+      <source src="mp4/Y2Mate.is - Zidane headbutt-ITdPTKpGHuI-144p-1658037792812.mp4" type="video/mp4">
+      </source>
+    </video></div>
+  <div class="r9 vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/r9.jpg">
+      <source src="mp4/Y2Mate.is - Ronaldo´s 2 goals at World Cup Final 2002-k6xteH5ryHM-360p-1658037778629.mp4"
+        type="video/mp4">
+      </source>
+    </video></div>
+  <div class="tshabalala vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/tshabalala.jpg">
+      <source src="mp4/Y2Mate.is - Tshabalala Goal VS Mexico In World Cup 2010 HD-HFISx1j0kak-360p-1658037840668.mp4"
+        type="video/mp4">
+      </source>
+    </video></div>
+  <div class="pele vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/pele.jpg">
+      <source src="mp4/Y2Mate.is -  Pele's Top 5 Goals FIFA World Cup-bUTRZGCiiFs-480p-1658037038520.mp4"
+        type="video/mp4">
+      </source>
+    </video></div>
+  <div class="vanpersie vid"><video muted playsinline onmouseover="this.play()"
+      onmouseout="this.pause();load();this.currentTime=0;" poster="bilder/van persie.jpg">
+      <source
+        src="mp4/Y2Mate.is - Robin van Persie Header FIFA Puskas Award 2014 FINALIST-DeKSmd-hjwo-480p-1658037063406.mp4"
+        type="video/mp4">
+      </source>
+    </video></div>
+  </section>
+
+  <div class="group-text-container">
+    <h1 class="groups-text">GROUPS</h1>
+  </div>
+
+  <section class="tabler">
+
+    <div id="groups-divs">
+
+      <!-- <div class="costumCard">
+          <div class="head">
+              Group 1
+          </div>
+          <div class="cardBody">
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">P</th>
+                      <th scope="col">W</th>
+                      <th scope="col">D</th>
+                      <th scope="col">L</th>
+                      <th scope="col">GF</th>
+                      <th scope="col">GA</th>
+                      <th scope="col">Pts</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr >
+                      
+                      <td id="name">Qatar</td>
+                      <td id="p" >0</td>
+                      <td id="w">0</td>
+                      <td id="d">0</td>
+                      <td id="l">0</td>
+                      <td id="gf">0</td>
+                      <td id="ga">0</td>
+                      <td id="pts">0</td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+          </div>
+      </div> -->
+    </div>
+
+
+  </section>
+  <section class="matchsched">
+    <h1>Matchschema</h1>
+
+    <section class="modal hidden">
+
+      <div class="container">
+
+
+      </div>
+
+
+
+
+    </section>
+
+    <div class="overlay hidden"></div>
+
+    <div class="buttontext">
+      <h1 class="btn btn-open">SE MER</h1>
+    </div>
+
+
+
+
+  </section>
+
+  <section>
+    <section class="another">
+      <h1>Players to watch</h1>
+    </section>
+  </section>
+
+  <section class="playersection">
+
+
+    <section class="players cr7section">
+      <div class="playerbox">
+        <div class="player-info">
+          <div class="player-name">
+            <div class="player-number">
+              <div class="number">
+                <p>7</p>
+              </div>
+            </div>
+            <div class="player-country">
+              <div class="country-name">
+                <p id="nationalteamcr"></p>
+              </div>
+              <div class="country-flag"><img src="bilder/portugal.png" alt=""></div>
+            </div>
+            <div class="player-team">
+              <div class="team-name">
+                <p>Manchester United</p>
+              </div>
+              <div class="team-flag"><img src="bilder/manutd.png" alt=""></div>
+            </div>
+          </div>
+          <div class="player-image">
+            <div class="player-img">
+              <img src="bilder/cr7stats.png" alt="">
+            </div>
+            <div class="player-name-text">
+              <h1 id="cr7namn"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="player-stats">
+          <div class="stats-1">
+            <div class="stats-box">
+              <p>APPS: <span id="cr7matcher"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>GOALS: <span id="cr7mål"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>ASSISTS: <span id="cr7assists"></span></p>
+            </div>
+
+          </div>
+          <div class="stats-2">
+            <div class="stats-box">
+              <p>MINUTES: <span id="cr7minuter"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>YELLOW: <span id="cr7gul"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>RED: <span id="cr7röd"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <section class="players messisection">
+
+      <div class="playerbox">
+        <div class="player-info">
+          <div class="player-name">
+            <div class="player-number">
+              <div class="number">
+                <p>10</p>
+              </div>
+            </div>
+            <div class="player-country">
+              <div class="country-name">
+                <p id="nationalteammessi"></p>
+              </div>
+              <div class="country-flag"><img src="bilder/argentinalogo.png" alt=""></div>
+            </div>
+            <div class="player-team">
+              <div class="team-name">
+                <p>Manchester United</p>
+              </div>
+              <div class="team-flag"><img src="bilder/psglogo.png" alt=""></div>
+            </div>
+          </div>
+          <div class="player-image">
+            <div class="player-img">
+              <img src="bilder/messistats.png" alt="">
+            </div>
+            <div class="player-name-text">
+              <h1>Lionel Messi</h1>
+            </div>
+          </div>
+        </div>
+        <div class="player-stats">
+          <div class="stats-1">
+            <div class="stats-box">
+              <p>APPS: <span id="messimatcher"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>GOALS: <span id="messimål"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>ASSISTS: <span id="messiassist"></span></p>
+            </div>
+
+          </div>
+          <div class="stats-2">
+            <div class="stats-box">
+              <p>MINUTES: <span id="messiminuter"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>YELLOW: <span id="messigul"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>RED: <span id="messiröd"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <section class="players benzemasection">
+      <div class="playerbox">
+        <div class="player-info">
+          <div class="player-name">
+            <div class="player-number">
+              <div class="number">
+                <p>9</p>
+              </div>
+            </div>
+            <div class="player-country">
+              <div class="country-name">
+                <p id="nationalteambenz"></p>
+              </div>
+              <div class="country-flag"><img src="bilder/francelogo.png" alt=""></div>
+            </div>
+            <div class="player-team">
+              <div class="team-name">
+                <p>Manchester United</p>
+              </div>
+              <div class="team-flag"><img src="bilder/madridlogo.png" alt=""></div>
+            </div>
+          </div>
+          <div class="player-image">
+            <div class="player-img">
+              <img src="bilder/benzema.png" alt="">
+            </div>
+            <div class="player-name-text">
+              <h1 id="benznamn"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="player-stats">
+          <div class="stats-1">
+            <div class="stats-box">
+              <p>APPS: <span id="benzmatcher"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>GOALS: <span id="benzmål"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>ASSISTS: <span id="benzassist"></span></p>
+            </div>
+
+          </div>
+          <div class="stats-2">
+            <div class="stats-box">
+              <p>MINUTES: <span id="benzminuter"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>YELLOW: <span id="benzgul"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>RED: <span id="benzröd"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="players neymarsection">
+      <div class="playerbox">
+        <div class="player-info">
+          <div class="player-name">
+            <div class="player-number">
+              <div class="number">
+                <p>10</p>
+              </div>
+            </div>
+            <div class="player-country">
+              <div class="country-name">
+                <p id="nationalteamneymar"></p>
+              </div>
+              <div class="country-flag"><img src="bilder/brazillogo.png" alt=""></div>
+            </div>
+            <div class="player-team">
+              <div class="team-name">
+                <p>Manchester United</p>
+              </div>
+              <div class="team-flag"><img src="bilder/psglogo.png" alt=""></div>
+            </div>
+          </div>
+          <div class="player-image">
+            <div class="player-img">
+              <img src="bilder/neymar.png" alt="">
+            </div>
+            <div class="player-name-text">
+              <h1 id="neymarnamn"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="player-stats">
+          <div class="stats-1">
+            <div class="stats-box">
+              <p>APPS: <span id="neymarmatcher"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>GOALS: <span id="neymarmål"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>ASSISTS: <span id="neymarassist"></span></p>
+            </div>
+
+          </div>
+          <div class="stats-2">
+            <div class="stats-box">
+              <p>MINUTES: <span id="neymarminuter"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>YELLOW: <span id="neymargul"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>RED: <span id="neymarröd"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="players mbappesection">
+      <div class="playerbox">
+        <div class="player-info">
+          <div class="player-name">
+            <div class="player-number">
+              <div class="number">
+                <p>7</p>
+              </div>
+            </div>
+            <div class="player-country">
+              <div class="country-name">
+                <p id="nationalteamkylian"></p>
+              </div>
+              <div class="country-flag"><img src="bilder/francelogo.png" alt=""></div>
+            </div>
+            <div class="player-team">
+              <div class="team-name">
+                <p>Manchester United</p>
+              </div>
+              <div class="team-flag"><img src="bilder/psglogo.png" alt=""></div>
+            </div>
+          </div>
+          <div class="player-image">
+            <div class="player-img">
+              <img src="bilder/kylian.png" alt="">
+            </div>
+            <div class="player-name-text">
+              <h1 id="kyliannamn"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="player-stats">
+          <div class="stats-1">
+            <div class="stats-box">
+              <p>APPS: <span id="kylianmatcher"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>GOALS: <span id="kylianmål"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>ASSISTS: <span id="kylianassist"></span></p>
+            </div>
+
+          </div>
+          <div class="stats-2">
+            <div class="stats-box">
+              <p>MINUTES: <span id="kylianminuter"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>YELLOW: <span id="kyliangul"></span></p>
+            </div>
+            <div class="stats-box">
+              <p>RED: <span id="kylianröd"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+
+
+  <section class="another1">
+    <h1>Countdown</h1>
+    <div id="clockdiv">
+      <div> <span class="days"></span>
+        <div class="smalltext">Days</div>
+      </div>
+      <div> <span class="hours"></span>
+        <div class="smalltext">Hours</div>
+      </div>
+      <div> <span class="minutes"></span>
+        <div class="smalltext">Minutes</div>
+      </div>
+      <div> <span class="seconds"></span>
+        <div class="smalltext">Seconds</div>
+      </div>
+    </div>
+  </section>
+  <section class="another3">
+    <h1>History</h1>
+    <div id="historytext">
+      <div>
+        <p class="history">The first official World Cup was played in Uruguay 1930, and since when the tournament has
+          been held every fourth year (with exceptions for interruption due to the Second World War). There were,
+          however, unofficial pre-FIFA World Cups already in the late 1800s, in a time when only few national teams
+          existed. Another unofficial "world cup" arranged before 1930 was Sir Thomas Lipton Trophy held in 1909 and
+          1911. Besides that, the Summer Olympic football competitions would be a mark of which the best national teams
+          were before 1930. The Olympic tournaments consisted, however, only of amateur teams – the World Cup became the
+          "real deal".</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="memosection">
+
+
+
+    <div class="textmemo">
+
+      <h1>World cup</h1>
+      <p> Memories</p>
+
+    </div>
+
+
+
+
+
+
+
+    <section class="firstmemory">
+
+
+
+      <div class="memobildsz">
+
+        <img src="bilder/Suarezmemo.png" alt="">
+
+      </div>
+
+      <div class="memotext">
+
+        <h1 class="memointrosz">SUAREZ THE THIEF</h1>
+        <p class="memostorysz">"Suarez robs ghana from reaching new records for african teams in path to glory"</p>
+
+      </div>
+
+    </section>
+
+    <section class="secondmemory">
+
+      <div class="memobildhl">
+        <img src="bilder/swedenbronze.jpg" alt="">
+      </div>
+      <div class="memotext">
+        <h1 class="memointrohl">SWEDISH BRONZE PARTY</h1>
+        <p class="memostoryhl">"Swedens best results ever in a world cup, a team of starplayers rather than vikings"</p>
+      </div>
+    </section>
+
+    <section class="thirdmemory">
+
+      <div class="memobildkick">
+        <img src="bilder/dejongkick.jpg" alt="">
+      </div>
+      <div class="memotext">
+        <h1 class="memointrokick">THE KICK THAT TURNED TO GOLD</h1>
+        <p class="memostorykick">"De jong with a ruthless kick on Xabi alonsos stomach, later on the spanish favourites
+          turned out to be the winners of The World Cup 2010"
+        </p>
+      </div>
+    </section>
+    <section class="fourthmemory">
+
+      <div class="memobildbaggio">
+        <img src="bilder/robertobaggio.jpg" alt="">
+      </div>
+      <div class="memotext">
+        <h1 class="memointrobaggio">THE MAN THAT DIED STANDING</h1>
+        <p class="memostorybaggio">"God forgives everyone except Baggio,In the midst of the eyes of more than 94,000
+          fans, and countless followers, fans and football fans in the world, Roberto Baggio carried the ball, on July
+          17, during the 1994 World Cup final, to implement Italy's fifth penalty kick against Brazil, which he lost
+          high to kill hopes. Italy hosting the World Cup"</p>
+      </div>
+    </section>
+  </section>
+  </section>
+
+
+
+  <script src="overlay.js"></script>
+  <script src="index.js"></script>
+  <script src="animations.js"></script>
+  <script src="/Tables/league.js"></script>
+
+</body>
+
+</html>

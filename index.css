@@ -1,0 +1,1104 @@
+@font-face {
+    font-family: qatar-medium;
+    src: url(fonts/Qatar2022-Medium.otf);
+}
+
+@font-face {
+    font-family: qatar-BOLD;
+    src: url(fonts/Qatar2022Arabic-Bold.ttf);
+}
+
+@font-face {
+    font-family: qatar-HEAVEY;
+    src: url(fonts/Qatar2022Arabic-Heavy.otf);
+}
+
+
+html {
+    margin: 0%;
+}
+
+
+body {
+    background-color: rgb(57, 65, 65);
+    background-image: url('bilder/FIFA\ World\ Cup\ -\ Qatar\ 2022\ BG-01.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+.loading-screen {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    font-family: qatar-medium;
+    height: 100vh;
+    background-image: url('bilder/FIFA\ World\ Cup\ -\ Qatar\ 2022\ BG-01.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.loading-section {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading-section .title {
+    margin: 0px 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.loading-section .bracket {
+    font-size: 40px;
+    margin: 0px 30px;
+    font-family: "Kenoky";
+}
+
+#loader {
+    font-size: 40px;
+    font-family: "Kenoky";
+}
+
+.loading-images-container {
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: min-content;
+}
+
+.loading-images {
+    width: max-content;
+    height: max-content;
+    margin: 0px 60px;
+    animation: sliding 15s infinite linear;
+    margin-bottom: 20px;
+}
+
+/* animation sliding  */
+@keyframes sliding {
+    from {
+        transform: translateX(5%);
+    }
+
+    to {
+        transform: translateX(-30%);
+    }
+}
+
+.loading-images img {
+    height: 100px;
+    border-radius: 4px;
+    margin: 10px 25px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.group-text-container {
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.groups-text {
+    color: rgb(223, 220, 214);
+    font-weight: 100;
+    font-size: 6REM;
+    font-family: qatar-HEAVEY;
+
+}
+
+.INTRO {
+    background-image: url("bilder/INTROvm.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+@font-face {
+    font-family: qatar-medium;
+    src: url(fonts/Qatar2022Arabic-Bold.ttf);
+}
+
+html {
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.handofgod [poster="bilder/handofgod.jpg"] {
+    opacity: 0.7;
+    border-radius: 30%;
+    height: 130px;
+    left: 90px;
+    top: 60px;
+
+}
+
+
+
+.handofgod {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    left: 90px;
+    top: 60px;
+    transition: all .5s ease-in-out;
+}
+
+
+
+.vid:hover {
+    transform: scale(1.7);
+    opacity: 1;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+
+.iniesta [poster="bilder/Iniestawinner.jpg"] {
+    opacity: 0.7;
+    border-radius: 30%;
+    height: 130px;
+    left: 90px;
+    bottom: 60px;
+
+}
+
+
+
+.iniesta {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    left: 90px;
+    bottom: 60px;
+    transition: all .5s ease-in-out;
+}
+
+.r10 [poster="bilder/Ronaldinhofreekick.jpg"] {
+    opacity: 0.7;
+    border-radius: 30%;
+    height: 130px;
+    right: 90px;
+    top: 60px;
+
+}
+
+
+
+.r10 {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    right: 90px;
+    top: 60px;
+    transition: all .5s ease-in-out;
+}
+
+
+
+
+
+.zidane [poster="bilder/zidane.jpg"] {
+    opacity: 0.7;
+    border-radius: 30%;
+    height: 130px;
+    right: 90px;
+    bottom: 60px;
+
+}
+
+
+
+.zidane {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+    transition: all .5s ease-in-out;
+}
+
+
+.r9 [poster="bilder/r9.jpg"] {
+    height: 130px;
+    opacity: 0.7;
+    right: 200px;
+    bottom: 150px;
+    border-radius: 30%;
+
+
+}
+
+.r9 {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    right: 200px;
+    bottom: 150px;
+    transition: all .5s ease-in-out;
+}
+
+.tshabalala [poster="bilder/tshabalala.jpg"] {
+    height: 130px;
+    opacity: 0.7;
+    right: 200px;
+    top: 150px;
+    border-radius: 30%;
+
+}
+
+.tshabalala {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    transition: all .5s ease-in-out;
+}
+
+.pele [poster="bilder/pele.jpg"] {
+    height: 130px;
+    opacity: 0.7;
+    left: 200px;
+    top: 150px;
+    border-radius: 40%;
+
+}
+
+
+
+
+
+
+.pele {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    transition: all .5s ease-in-out;
+}
+
+.vanpersie [poster="bilder/van persie.jpg"] {
+    height: 130px;
+    opacity: 0.7;
+    left: 200px;
+    bottom: 150px;
+    border-radius: 30%;
+}
+
+.vanpersie {
+    height: 130px;
+    opacity: 0.7;
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+    transition: all .5s ease-in-out;
+
+}
+
+
+
+video:hover {
+    border: wheat 3px solid;
+}
+
+[poster] {
+    border: wheat solid;
+    object-fit: cover;
+
+
+}
+
+
+
+h1 {
+    font-family: qatar-HEAVEY;
+    color: wheat;
+    justify-content: center;
+}
+
+h2 {
+    font-family: qatar-HEAVEY;
+    color: wheat;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.groupName {
+    display: flex;
+    justify-content: center;
+}
+
+#groups-divs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.costumCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.head {
+    font-size: 2rem;
+    margin-left: 80%;
+    margin-bottom: 10%;
+    width: 100%;
+    color: wheat;
+    font-family: qatar-medium;
+    ;
+}
+
+table {
+    font-family: qatar-medium;
+    ;
+    border-collapse: collapse;
+    margin-left: 30px;
+
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+thead {
+    background: rgb(56, 0, 25);
+    background-image: linear-gradient(160deg, #380909 0%, #601c1c 100%);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    color: rgb(213, 218, 223);
+    height: 40px;
+    box-shadow: 0 0 0 1px #666;
+    font-family: qatar-medium;
+    padding: 10px 10px 10px;
+}
+
+tbody {
+    background-color: rgb(211, 207, 207);
+    font-family: qatar-medium;
+
+
+}
+
+.table-storlek {
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+th {
+
+    padding: 0.0rem 0.1rem;
+    font-family: qatar-medium;
+}
+
+td {
+    margin: 0%;
+    padding: 0rem 0.8rem;
+
+    font-family: qatar-medium;
+}
+
+.playersection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(102, 102, 102, 0);
+}
+
+/* game scheduele */
+.container {
+    padding: 16px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+
+
+.titlebox {
+    border: 1px solid rgb(48, 44, 44);
+    border-radius: 23px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    background: rgba(0, 0, 0, 0.579);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.591);
+    opacity: 0.9;
+
+}
+
+.teamnames {
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.goalbox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.resultat {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+
+img {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.8s ease all;
+}
+
+img:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.3);
+    transition: 1s ease;
+
+}
+
+.btn {
+    width: 110px;
+    height: 45px;
+    font-weight: 600;
+    color: #000;
+    background-color: #cfdbd5;
+
+}
+
+.start {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* players to watch */
+
+.players {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: qatar-medium;
+    font-size: 1rem;
+    color: beige;
+
+}
+
+.cr7section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.messisection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.benzemasection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mbappesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.neymarsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.another {
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.another1 {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    white-space: nowrap;
+}
+
+.another3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: beige;
+
+}
+
+.matchsched {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: beige;
+}
+
+.memosection {
+    background-color: #000;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: beige;
+
+}
+
+
+#clockdiv {
+    color: wheat;
+    font-family: qatar-medium;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 4rem
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: rgba(136, 6, 6, 0);
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.history {
+    margin: auto;
+    max-width: 50vw;
+    font-family: qatar-medium;
+    color: wheat;
+}
+
+.historytext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benzemasection .playerbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 60vh;
+    width: 60vw;
+    background-image: url(bilder/france.jpg);
+    background-size: cover;
+    background-position: center;
+    color: azure;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.3);
+
+
+}
+
+.messisection .playerbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 60vh;
+    width: 60vw;
+    background-image: url(bilder/argentina.jpg);
+    background-size: cover;
+    background-position: center;
+    color: azure;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.3);
+
+
+}
+
+.cr7section .playerbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 60vh;
+    width: 60vw;
+    background-image: url(bilder/portugal4k.jpg);
+    background-size: cover;
+    background-position: center;
+    color: azure;
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.3);
+
+
+}
+
+.mbappesection .playerbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 60vh;
+    width: 60vw;
+    background-image: url(bilder/france.jpg);
+    background-size: cover;
+    background-position: center;
+    color: azure;
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.3);
+
+
+}
+
+.neymarsection .playerbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 60vh;
+    width: 60vw;
+    background-image: url(bilder/brazil.jpg);
+    background-size: cover;
+    background-position: center;
+    color: azure;
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(189, 19, 19, 0.3);
+
+
+}
+
+.player-info {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* player-stats */
+
+.player-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.stats-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+
+.stats-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.stats-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 140px;
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.379);
+    backdrop-filter: blur(15.6px);
+    -webkit-backdrop-filter: blur(15.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.stats-box p {
+    font-size: 1.3rem;
+
+}
+
+
+.player-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(58, 55, 51, 0);
+    width: 50%;
+    font-size: 20px;
+}
+
+.player-image {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(28, 25, 20, 0);
+    width: 50%;
+
+}
+
+.player-number {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: start;
+
+
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.player-country {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 70%;
+    border-radius: 20px;
+}
+
+
+
+.country-name {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.country-flag {
+    margin: auto;
+}
+
+.country-flag img {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.player-team {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 70%;
+
+}
+
+/* team name */
+
+.team-name {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.team-flag {
+    margin: auto;
+}
+
+.team-flag img {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+/* playerimage */
+.player-img img {
+    height: 320px;
+    z-index: 100;
+
+}
+
+.player-img {
+    height: 225px;
+    z-index: 10;
+}
+
+.player-name-text {
+    height: 300px;
+    width: 20px;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    background-color: #bf0e0e00;
+}
+
+.player-name-text h1 {
+    font-size: 25px;
+}
+
+/* Memories */
+.firstmemory {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.textmemo p {
+    font-family: qatar-HEAVEY;
+    color: wheat;
+    margin-left: 20%;
+}
+
+.memobildsz img {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+
+.memointrosz {
+    margin-top: 500px;
+    font-family: qatar-medium;
+}
+
+.memostorysz {
+    margin-top: -20px;
+    font-family: qatar-medium;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.memobildhl img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.memointrohl {
+    margin-top: 10px;
+    margin-left: -550px;
+    font-family: qatar-medium;
+
+}
+
+.memostoryhl {
+    margin-top: -20px;
+    font-family: qatar-medium;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: -400px;
+}
+
+.memobildkick img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 80%;
+}
+
+.memointrokick {
+    font-family: qatar-medium;
+    margin-left: 35%;
+}
+
+.memostorykick {
+    font-family: qatar-medium;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+.memobildbaggio img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 30%;
+
+}
+
+.memointrobaggio {
+    font-family: qatar-medium;
+    margin-left: 10%;
+}
+
+.memostorybaggio {
+    font-family: qatar-medium;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: 10%;
+}
+
+
+.firstmemory {
+    margin-bottom: 20%;
+}
+
+.secondmemory {
+    margin-bottom: 20%;
+}
+
+.thirdmemory {
+    margin-bottom: 20%;
+}
+
+.fourthmemory {
+    margin-bottom: 20%;
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .tabler {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-bottom: 30%;
+        margin-left: 16%;
+        height: 500px;
+        gap: 1%;
+
+
+    }
+}
+
+/*Kodat av Abdul och Nassim
